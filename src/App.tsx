@@ -1,5 +1,7 @@
+import { TableauPublic } from './components/TableauPublic';
+
 const App = () => {
-  return <div className="vizContainer"></div>;
+  return <TableauPublic />;
 };
 
 export default App;

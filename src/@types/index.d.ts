@@ -1,8 +1,8 @@
-module Tableau {
-  Viz = VizClass;
+interface Tableau {
+  Viz: Viz;
 }
 
-interface VizClass {
+interface Viz {
   new (renderElement: HTMLDivElement, url: string, options?: VizOptions): any;
 }
 

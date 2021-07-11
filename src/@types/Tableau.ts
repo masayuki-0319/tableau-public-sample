@@ -6,7 +6,7 @@ interface Viz {
   new (renderElement: HTMLDivElement, url: string, options?: VizOptions): any;
 }
 
-type VizOptions = {
+export type VizOptions = {
   hideTabs?: boolean;
   devise?: 'desktop';
   onFirstInteractive?: Function;

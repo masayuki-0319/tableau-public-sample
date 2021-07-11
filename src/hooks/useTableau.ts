@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { VizOptions } from '../@types/Tableau';
 
 export const useTableau = () => {
   const tableau = window.tableau;
